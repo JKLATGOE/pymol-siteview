@@ -1,0 +1,9 @@
+name: pymol-siteview
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pymol-open-source
+  - pip
+  - pip:
+      - -e .

@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include environment.yml
+include requirements.txt
+recursive-include examples *.md *.sh *.ps1
